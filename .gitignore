@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+backend/venv/
+
+# VS Code
+.vscode/
+
+# Uploaded files
+backend/uploads/
+
+# Environment variables
+.env
