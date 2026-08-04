@@ -15,6 +15,7 @@ def about():
         "developer": "Ilamadhi"
     }
 
+
 @app.post("/upload")
 def upload_pdf(file: UploadFile = File(...)):
     file_path = f"uploads/{file.filename}"
